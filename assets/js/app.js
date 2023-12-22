@@ -155,7 +155,7 @@ const onEdit=(eve)=>{
         userIdControl.value=res.userId
         updateBtn.classList.remove("d-none")
         submitBtn.classList.add("d-none")
-        windows.scrollto(0,0)
+        window.scrollTo(0,0)
     })
     // .catch(cl)
    
